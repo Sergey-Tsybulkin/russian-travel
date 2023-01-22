@@ -14,7 +14,7 @@
     + BEM (nested)
   + layout
 
-*Adding new stack
+* Adding new stack
 	+ grid
 	+ adaptive
 	+ media querries
