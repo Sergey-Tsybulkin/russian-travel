@@ -1,0 +1,28 @@
+.cover {
+	background: url("../../images/__background.jpg");
+	background-size: cover;
+	position: relative;
+	width: 92.5%;
+	padding: 19.141% 0;
+	margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+	.cover {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.cover {
+		margin-bottom: 88px;
+		padding: 14.975% 0
+	}
+}
+
+@media (max-width: 320px) {
+	.cover {
+		margin-bottom: 64px;
+		padding: 10.315% 0;
+	}
+}

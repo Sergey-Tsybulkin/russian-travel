@@ -1,0 +1,22 @@
+.place__image {
+	grid-area: image;
+}
+
+@media (max-width: 1024px) {
+	.place__image {
+		width: 440px;
+	}
+}
+
+@media (max-width: 768px) {
+	.place__image {
+		width: 340px;
+	}
+}
+
+@media (max-width: 425px) {
+	.place__image {
+		justify-self: center;
+		width: 100%;
+	}
+}
