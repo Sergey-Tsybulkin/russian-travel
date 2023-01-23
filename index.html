@@ -28,9 +28,8 @@
 				<p class="center lead__subtitle">Настоящая страна не в выпусках
 					новостей, а здесь.</p>
 				<figure class="center lead__figure">
-					<img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Ваша полка — верхняя" class="lead__image">
-					<img src="./images/__path.svg" alt="Путь по России" class="lead__path">
-					<figcaption class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</figcaption>
+					<img src="./images/lead__image.jpg" alt="Ваша полка — верхняя" class="lead__image">
+					<figcaption class="lead__caption">ваша полка — верхняя</figcaption>
 				</figure>
 			</section>
 			<section class="center intro">
@@ -53,7 +52,7 @@
 					<li class="intro__list-item"><span class="intro__span-accent">Аэропортов</span> 241</li>
 				</ul>
 			</section>
-			<div class="center photo-grid">
+			<section aria-label="h2" class="center photo-grid">
 				<img src="./images/__item_1.jpg" alt="Вид из окна поезда" class="photo-grid__item">
 				<img src="./images/__item_2.jpg" alt="Снежные горы (вид сверху)" class="photo-grid__item">
 				<img src="./images/__item_3.jpg" alt="Волк на сене" class="photo-grid__item">
@@ -66,13 +65,13 @@
 				<img src="./images/__item_10.jpg" alt="Заснеженная гора" class="photo-grid__item">
 				<img src="./images/__item_11.jpg" alt="Горный массив" class="photo-grid__item">
 				<img src="./images/__item_12.jpg" alt="Скалы в тумане" class="photo-grid__item">
-			</div>
+			</section>
 			<section class="place">
 				<div class="center place__grid">
 					<h2 class="place__title">Куршская коса</h2>
 					<img src="./images/place__image_1.jpg" alt="Куршская коса" class="place__image">
 					<div class="place__website">
-						<h3 class="place__url-heading">URL</h3>
+						<span class="place__url-heading">url</span>
 						<a href="http://park-kosa.ru/" class="place__link" target="_blank">park-kosa.ru</a>
 					</div>
 					<div class="place__paragraphs">
@@ -90,7 +89,7 @@
 					<h2 class="place__title">Кольский</h2>
 					<img src="./images/place__image_2.jpg" alt="Кольский" class="place__image">
 					<div class="place__website">
-						<h3 class="place__url-heading">URL</h3>
+						<span class="place__url-heading">URL</span>
 						<a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link"
 							target="_blank">National Geographic</a>
 					</div>
@@ -110,7 +109,7 @@
 					<h2 class="place__title">Алтай</h2>
 					<img src="./images/place__image_3.jpg" alt="Алтай" class="place__image">
 					<div class="place__website">
-						<h3 class="place__url-heading">URL</h3>
+						<span class="place__url-heading">URL</span>
 						<a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link" target="_blank">YouTube
 						</a>
 					</div>
@@ -129,7 +128,7 @@
 					<h2 class="place__title">Зимний Байкал</h2>
 					<img src="./images/place__image_4.jpg" alt="Зимний Байкал" class="place__image">
 					<div class="place__website">
-						<h3 class="place__url-heading">URL</h3>
+						<span class="place__url-heading">URL</span>
 						<a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
 					</div>
 					<div class="place__paragraphs">
@@ -147,7 +146,7 @@
 					<h2 class="place__title">Карелия</h2>
 					<img src="./images/place__image_5.jpg" alt="Карелия" class="place__image">
 					<div class="place__website">
-						<h3 class="place__url-heading">URL</h3>
+						<span class="place__url-heading">URL</span>
 						<a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
 					</div>
 					<div class="place__paragraphs">
@@ -162,14 +161,15 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="center cover">
+				<a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank">
+					<h2 class="cover__title">До Байкала «на собаках»</h2>
+					<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+						электричках.</p>
+				</a>
+			</section>
 		</main>
-		<section class="center cover">
-			<a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay" target="_blank">
-				<h2 class="cover__title">До Байкала «на собаках»</h2>
-				<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-					электричках.</p>
-			</a>
-		</section>
 		<footer class="center footer">
 			<nav>
 				<ul class="footer__list">
@@ -190,7 +190,7 @@
 					</li>
 				</ul>
 			</nav>
-			<p class="footer__copyright">&#169; 2020. Впишите своё имя</p>
+			<p class="footer__copyright">&copy; 2020. Впишите своё имя</p>
 		</footer>
 	</div>
 </body>

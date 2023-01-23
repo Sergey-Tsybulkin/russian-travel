@@ -1,0 +1,26 @@
+.place {
+	display: grid;
+	row-gap: 80px;
+	padding-bottom: 96px;
+
+}
+
+@media (max-width: 1024px) {
+	.place {
+		padding-bottom: 94px;
+	}
+}
+
+@media (max-width: 768px) {
+	.place {
+		row-gap: 73px;
+		padding-bottom: 101px;
+	}
+}
+
+@media (max-width: 320px) {
+	.place {
+		row-gap: 50px;
+		padding-bottom: 66px;
+	}
+}
