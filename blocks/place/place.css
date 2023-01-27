@@ -1,20 +1,13 @@
 .place {
 	display: grid;
 	row-gap: 80px;
-	padding-bottom: 96px;
-
-}
-
-@media (max-width: 1024px) {
-	.place {
-		padding-bottom: 94px;
-	}
+	padding-bottom: 92px;
 }
 
 @media (max-width: 768px) {
 	.place {
 		row-gap: 73px;
-		padding-bottom: 101px;
+		padding-bottom: 90px;
 	}
 }
 

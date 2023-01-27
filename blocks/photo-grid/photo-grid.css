@@ -1,14 +1,8 @@
 .photo-grid {
-	list-style-type: none;
-	padding: 0;
-	margin-top: 0;
-	margin-bottom: 0;
 	width: 92.5%;
 	display: grid;
-	
 	grid-template-columns: repeat(auto-fit, minmax(280px, auto));
 	gap: 16px;
-
 	padding-bottom: 92px;
 }
 

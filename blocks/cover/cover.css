@@ -1,6 +1,7 @@
 .cover {
 	background: url("../../images/__background.jpg");
 	background-size: cover;
+	background-position: center;
 	position: relative;
 	width: 92.5%;
 	padding: 19.141% 0;
